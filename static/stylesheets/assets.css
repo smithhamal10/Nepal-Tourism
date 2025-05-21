@@ -1,0 +1,55 @@
+.wavy {
+	position: relative;
+	width: 46px;
+	height: 16px;
+	overflow: hidden;
+}
+
+.wavy::before {
+	content: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+	position: absolute;
+	top: -20px;
+	left: 0;
+	font-size: 2rem;
+	color: transparent;
+	text-decoration-style: wavy;
+	text-decoration-color: #4b54fa;
+
+	text-decoration-line: underline;
+
+	animation: animate 2s linear infinite;
+}
+
+.wavywhite::before {
+	text-decoration-color: #fff;
+	top: -22px;
+}
+
+@keyframes animate {
+	0% {
+		transform: translateX(-1px);
+	}
+	100% {
+		transform: translateX(-55px);
+	}
+}
+
+#myBtn {
+	font-family: bold;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	z-index: 99;
+	border: 1px solid #4b54fa;
+	border-radius: 5px;
+	outline: none;
+	cursor: pointer;
+	padding: 15px;
+	color: #1a1818;
+	background: #4b54fa;
+}
+
+#myBtn i {
+	color: #fff;
+}

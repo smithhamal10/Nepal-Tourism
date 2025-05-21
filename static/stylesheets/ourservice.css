@@ -1,0 +1,100 @@
+.ourservice {
+	width: 100%;
+	height: 780px;
+}
+
+.ourservice-title {
+	max-width: 259px;
+	max-height: 227px;
+}
+.ourservice-title p {
+	margin-top: 1.5em;
+}
+.ourservice-container {
+	max-width: 872px;
+	height: 682px;
+	flex-wrap: wrap;
+}
+
+.ourservice-container div {
+	width: calc(100% - 600px);
+	height: 330px;
+	flex-flow: column;
+}
+
+.ourservice-container div img {
+	width: 100%;
+	height: 180px;
+	border: solid 1px #696969;
+}
+.ourservice-container div p {
+	height: 100px;
+}
+
+/* test */
+.imgmedia:hover {
+	opacity: 30%;
+}
+
+#lightbox {
+	/*  COVERS FULLSCREEN */
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+
+	/* (A2) BACKGROUND */
+	background: rgba(0, 0, 0, 0.5);
+
+	/* (A3) CENTER IMAGE ON SCREEN */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	/* (A4) HIDDEN BY DEFAULT */
+	visibility: hidden;
+	opacity: 0;
+
+	/* (A5) SHOW/HIDE ANIMATION */
+	transition: opacity ease 0.4s;
+}
+.lightboxContainer {
+	max-width: 600px;
+	max-height: 600px;
+	background: gray;
+	border: 1px solid black;
+}
+/* (A6) TOGGLE VISIBILITY */
+#lightbox.shows {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* (B) LIGHTBOX IMAGE */
+#lightbox img {
+	/* (B1) DIMENSIONS */
+	max-width: calc(100% - 60px);
+	height: calc(100% - 200px);
+	margin: 20px;
+	object-fit: cover;
+}
+
+#lightbox h4 {
+	display: flex;
+	justify-content: center;
+	font-size: 2.5em;
+}
+#lightbox p {
+	padding: 20px;
+	font-size: 1.5em;
+	color: black;
+}
+.block:hover .outer {
+	top: 0;
+}
+.bg-hover-aqua:hover {
+	opacity: 50%;
+	cursor: pointer;
+}

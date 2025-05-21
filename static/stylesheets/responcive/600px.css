@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+	.ourservice-container div {
+		min-width: 300px;
+		width: calc(100% - 140px);
+	}
+
+	#lightbox p {
+		line-height: 0.8em;
+	}
+	#lightbox h4 {
+		font-size: 1.2em;
+	}
+	.sale_email input[type="email"] {
+		width: auto;
+		max-width: 395px !important;
+	}
+	.acchive_container {
+		width: 100%;
+	}
+	.acchive_container .flex-btw div {
+		max-width: 100px;
+		text-align: center;
+	}
+	.plan_main_container h2 {
+		font-size: 1.5em;
+	}
+	.trip_container {
+		height: 400px;
+	}
+}

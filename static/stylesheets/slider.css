@@ -1,0 +1,132 @@
+.slideshow-container {
+	max-width: 100%;
+	height: 550px;
+	position: relative;
+	margin: auto;
+	background-color: #08aeea;
+}
+
+.slideshow-container div img {
+	height: 100%;
+	width: auto;
+	width: 100vw;
+	object-position: 0 88%;
+	object-fit: cover;
+}
+
+.prev,
+.next {
+	border: 1px solid #f7f4f4;
+	cursor: pointer;
+	width: 33px;
+	height: 33px;
+	color: #2f2f2f;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	background-color: #ffffff;
+}
+
+.slider_btn_container {
+	position: absolute;
+	max-width: 1172px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 5;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sliderInfo {
+	height: 245px;
+	max-width: 586px;
+	color: #ffffff;
+	margin-bottom: 100px;
+	display: flex;
+}
+
+.sliderInfo_container {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	justify-content: space-between;
+}
+.sliderInfo_container div {
+	color: #006cd1;
+	width: 287px;
+	background-size: contain;
+	background-position: left;
+	height: 92px;
+	align-items: center;
+	display: flex;
+	text-transform: capitalize;
+	justify-content: center;
+	font-family: Raleway;
+	font-weight: bold;
+	background-image: url("../images/clip/Layer2.png");
+}
+
+.sliderInfo_container h1 {
+	font-size: 4.6rem;
+	line-height: 50px;
+	text-transform: capitalize;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.sliderInfo_container h6 {
+	text-transform: uppercase;
+	font-family: Raleway;
+	font-weight: 700;
+	line-height: 37px;
+	color: #fff;
+}
+
+
+.slider {
+	max-width: 1360px;
+	height: auto;
+	margin: auto;
+}
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.slides {
+	display: flex;
+	position: relative;
+	left: 0;
+	width: 100000px;
+}
+
+.slides.shifting {
+	transition: left 0.2s ease-out;
+}
+.mySlides {
+	width: 100vw;
+	height: auto;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: all 1s;
+	position: relative;
+}

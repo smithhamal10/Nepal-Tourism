@@ -1,0 +1,170 @@
+.travel_wrapper {
+	min-height: 1130px;
+}
+
+.traveler_container_item {
+	width: 360px;
+	height: 400px;
+	margin: 20px;
+	background: #f4f4f4;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+}
+.travel_container_main {
+	max-width: 1166px;
+	min-height: 560px;
+}
+
+.travelers_img_container {
+	margin-top: 50px;
+}
+
+.travelers_img {
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	background-position: top;
+}
+.package_container .traveler_container_item:first-child .travelers_img {
+	background-image: url(https://cdn.pixabay.com/photo/2017/10/03/21/40/the-stupa-2814298_1280.jpg);
+}
+.package_container .traveler_container_item:nth-child(2) .travelers_img {
+	background-image: url(../images/packageIMG/Layer7.png);
+}
+.package_container .traveler_container_item:nth-child(3) .travelers_img {
+	background-image: url(../images/packageIMG/Layer8.png);
+}
+
+.travelers_img_container p {
+	line-height: 37px;
+	font-family: Raleway;
+	font-weight: 700;
+	color: #4b54fa;
+	text-transform: capitalize;
+}
+
+.traveler_text_container {
+	line-height: 22px;
+	font-weight: 500;
+	color: #1a1a1b;
+	height: 143px;
+	width: 298px;
+}
+
+.traveler_text_container p {
+	font-size: 0.8em;
+	padding: 20px;
+}
+
+.traveler_text_container i {
+	color: #2c2c2c;
+	font-size: 27px;
+}
+
+.trip_container {
+	height: 500px;
+	background-position: top;
+	background-image: url(https://cdn.pixabay.com/photo/2015/03/01/14/21/boudhanath-stupa-654746_1280.jpg);
+}
+
+.plan_main_container {
+	width: auto;
+	height: 150px;
+	margin: auto auto 50px;
+	align-items: center;
+}
+.plan_main_container h2 {
+	line-height: 37px;
+	font-size: 2.5em;
+	font-weight: 500;
+}
+
+.plan_main_container input {
+	width: 170px;
+	height: 50px;
+	color: #ffffff;
+	border-radius: 25px;
+	border: none;
+	background-image: linear-gradient(
+		to top,
+		rgba(42, 245, 152, 0.73),
+		rgba(8, 174, 234, 0.52)
+	);
+}
+
+/* popular_countries_container */
+.popular_countries_container {
+	height: auto;
+	margin-bottom: 20px;
+}
+.countries_container_item {
+	width: 270px;
+	height: 425px;
+	margin-top: 20px;
+}
+.countries_container_main {
+	height: auto;
+}
+
+.countries_img_container {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.countries_text_container {
+	width: 240px;
+	height: 60px;
+	margin-bottom: 5px;
+	align-items: center;
+	color: #ffffff;
+	line-height: 37px;
+}
+
+.countries_text_container h2 {
+	text-transform: capitalize;
+}
+.countries_text_container p {
+	color: #ffffff;
+	font-family: monospace;
+}
+.countries_text_container .logo {
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 25px;
+	background-image: linear-gradient(
+		to top,
+		rgba(8, 174, 234, 1),
+		rgba(42, 245, 152, 1)
+	);
+}
+
+.package_container
+	.countries_container_item:first-child
+	.countries_img_container {
+	background-image: 
+		url(https://cdn.pixabay.com/photo/2017/10/03/21/40/the-stupa-2814298_1280.jpg);
+}     
+.package_container
+	.countries_container_item:nth-child(2)
+	.countries_img_container {
+	background-position: 400px 0px;
+	background-image: 
+		url(https://cdn.pixabay.com/photo/2021/02/23/11/06/mountains-6043079_1280.jpg);
+}
+
+.package_container
+	.countries_container_item:nth-child(3)
+	.countries_img_container {
+	background-image: 
+		url(https://cdn.pixabay.com/photo/2015/03/01/14/21/boudhanath-stupa-654746_1280.jpg);
+}
+

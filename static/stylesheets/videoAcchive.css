@@ -1,0 +1,89 @@
+.videoArchive_conrainer {
+	width: 100%;
+	height: 816px;
+	border-bottom: 1px solid #707070;
+}
+
+.video_container {
+	width: 100%;
+	height: 504px;
+	border-bottom: 1px solid #707070;
+
+	background-color: #696969;
+}
+.video_image_container {
+	height: 500px;
+	background-position: bottom;
+	color: #fff;
+	background-color: #696969;
+	display: flex;
+	justify-content: center;
+	background-size: cover;
+	background-image: linear-gradient(
+			rgba(105, 105, 105, 0.9),
+			rgba(105, 105, 105, 0.9)
+		),
+		url(../images/watchOurVideo/xavier-coiffic-1068988-unsplash.png);
+}
+.video_image_container .main-title-container {
+	height: 100%;
+	width: 663px;
+}
+.video_image_container h6,
+.video_image_container h3 {
+	color: #fff;
+}
+.video_main_container {
+	height: 314px;
+	width: 100%;
+	background-position: center;
+	background-position-y: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 4px solid #4b54fa;
+	background-image: url(../images/watchOurVideo/rune-haugseng.png);
+}
+
+.acchive_container {
+	height: 205px;
+	max-width: 1060px;
+	width: 100%;
+	place-self: center;
+}
+
+.acchive_container .flex-btw div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.acchive_container .flex-btw div img {
+	height: 53px;
+	margin: 20px;
+}
+.acchive_container .flex-btw div:first-child img {
+	width: 56px;
+}
+.acchive_container .flex-btw div:nth-child(2) img {
+	width: 68px;
+}
+.acchive_container .flex-btw div:nth-child(3) img {
+	width: 40px;
+}
+.acchive_container .flex-btw div:nth-child(4) img {
+	width: 60px;
+}
+
+.acchive_container .flex-btw div span {
+	line-height: 1.5em;
+	font-size: 2em;
+	font-family: Lato;
+}
+.acchive_container .flex-btw div h5 {
+	line-height: 1.5em;
+	font-size: 1.2em;
+	font-family: Raleway;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #1a1a1b;
+}

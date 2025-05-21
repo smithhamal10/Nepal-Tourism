@@ -1,0 +1,174 @@
+.popular_wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.popular_container {
+	min-height: 630px;
+	width: 100%;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.popular_container_main {
+	min-height: 490px;
+	width: 100%;
+	width: calc(100% - 200px);
+	margin: auto;
+}
+.popular_container_main_wd {
+	width: calc(100% - 300px);
+}
+
+.popular_container .popular_container_main .main-title-container {
+	height: 100%;
+}
+.popular_container_main .main-title-container {
+	margin-top: 0px;
+}
+
+.popular_container_main .package_header {
+	height: 100%;
+}
+
+.package_container_item {
+	max-width: 267px;
+	max-height: 358px;
+	margin-top: 20px;
+	box-shadow: 4px 4px 4px 4px rgba(101, 101, 101, 0.2);
+}
+
+.package_img_container {
+	width: 267px;
+	height: 246px;
+}
+
+.package_img_container span {
+	position: absolute;
+	width: 98px;
+	height: 25px;
+	background-color: #fed701;
+	margin-top: 10px;
+	margin-left: 10px;
+	text-transform: capitalize;
+	font-weight: 600;
+	font-family: Raleway;
+	padding: 0 10px 0 5px;
+}
+
+.package_text_container {
+	justify-content: space-around;
+	align-items: center;
+	height: 80px;
+}
+cont {
+	text-align: center;
+}
+.package_text_container p {
+	font-size: 1em;
+	color: #1a1a1b;
+}
+.package_text_container h4 {
+	font-size: 1em;
+	color: #4b54fa;
+	text-transform: capitalize;
+}
+.package_container .package_container_item:first-child .package_img_container {
+	background-image: url(https://cdn.pixabay.com/photo/2021/06/07/06/02/aarati-6317033_1280.jpg);
+}
+.package_container .package_container_item:nth-child(2) .package_img_container {
+	background-image: url(https://cdn.pixabay.com/photo/2021/06/07/06/02/aarati-6317033_1280.jpg);
+	background-position: center;
+}
+.package_container .package_container_item:nth-child(3) .package_img_container {
+	background-image: url(https://cdn.pixabay.com/photo/2021/06/07/06/02/aarati-6317033_1280.jpg);
+	background-position: bottom;
+}
+
+.sale_container {
+	width: 100%;
+	height: 350px;
+
+	background-position: center;
+
+	background-image: linear-gradient(
+			to top,
+			rgba(42, 245, 152, 0.73),
+			rgba(8, 174, 234, 0.52)
+		),
+		url(../images/packageIMG/vidar-nordli.png);
+
+	background-size: cover;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sale_main_container {
+	max-width: 580px;
+	height: 200px;
+}
+
+.sale_title {
+	align-items: center;
+	text-align: center;
+}
+
+.sale_title h2 {
+	font-size: 2em;
+	text-transform: capitalize;
+	line-height: 37px;
+	font-family: Raleway;
+}
+.sale_title span {
+	font-size: 1em;
+	font-weight: 500;
+	line-height: 37px;
+	font-family: Raleway;
+}
+.sale_email {
+	max-width: 580px;
+}
+.sale_email form {
+	display: flex;
+	justify-content: center;
+	background-color: none;
+}
+.sale_email input {
+	height: 50px;
+	border: 2px solid #ffffff;
+	border-radius: 25px;
+
+	margin: 10px;
+}
+
+.sale_email input[type="email"] {
+	width: 395px;
+	color: #fff;
+	background: none;
+	padding: 20px;
+}
+.sale_email input[type="email"]::placeholder {
+	color: #fff;
+	font-weight: 900;
+}
+
+.sale_email input[type="submit"] {
+	width: 155px;
+	text-transform: uppercase;
+
+	color: #08aeea;
+}
+
+.map_conainer {
+	width: 100%;
+	height: 435px;
+}
+
+.map_conainer iframe {
+	height: 100%;
+	width: 100%;
+}

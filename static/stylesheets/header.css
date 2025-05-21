@@ -1,0 +1,32 @@
+header {
+	height: 650px;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+nav {
+	height: 80px;
+	align-items: center;
+}
+.logo {
+	width: 133px;
+	height: 31px;
+}
+.nav_menu {
+	width: 100%;
+	max-width: 500px;
+	height: 21px;
+}
+
+.nav_menu ul li a {
+	text-transform: uppercase;
+	color: #303134;
+	font-family: Raleway;
+	font-weight: 600;
+}
+.hamburger {
+	display: none;
+}
+banner {
+	height: auto;
+}
